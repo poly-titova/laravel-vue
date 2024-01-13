@@ -30,6 +30,7 @@ class UserFactory extends Factory
             'lastname' => fake()->lastName(),
             'company' => fake()->company(),
             'position' => fake()->word(),
+            'avatar' => '/assets/avatars/avatar-'.rand(1,9).'.jpg',
             'email_verified_at' => now(),
             'password' => static::$password ??= Hash::make('password'),
             'remember_token' => Str::random(10),
