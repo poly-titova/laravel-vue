@@ -1,0 +1,7 @@
+@use "sass:math";
+@import "@/shared/sass/variables";
+@import '@/shared/sass/fonts';
+@import '@/shared/sass/reset';
+@import '../../shared/sass/extends/*.scss'; //sassGlobImport не понимает alias, поэтому указываем относительный путь
+@import '@/shared/sass/init';
+@import '../../shared/common.blocks/**/*.scss'; //sassGlobImport не понимает alias, поэтому указываем относительный путь

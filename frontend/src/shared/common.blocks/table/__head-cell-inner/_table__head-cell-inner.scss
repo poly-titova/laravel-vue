@@ -1,0 +1,15 @@
+.table__head-cell-inner {
+    @extend %flex-row-vcenter-hstart-nowrap;
+
+    > .icon {
+        font-size: 1em;
+        &:first-child {
+            margin-right: $gap_xs;
+        }
+
+        &:last-child {
+            margin-left: $gap_xs;
+            margin-right: 0;
+        }
+    }
+}

@@ -1,0 +1,6 @@
+.table__head-cell.table__head-cell_align_right {
+    text-align: right;
+    > .table__head-cell-inner {
+        justify-content: flex-end;
+    }
+}

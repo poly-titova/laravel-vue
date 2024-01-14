@@ -1,0 +1,6 @@
+.table__head-cell.table__head-cell_align_center {
+    text-align: center;
+    > .table__head-cell-inner {
+        justify-content: center;
+    }
+}
